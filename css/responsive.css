@@ -1,0 +1,339 @@
+@media screen and (max-width: 800px) {
+    .container-header .header-left nav {
+        display: none;
+    }
+
+    .container-header  .header-menu {
+        display: block;
+    }
+
+    .container-header .header-right input {
+        width: 130px;
+    }
+
+    .home {
+        height: 110vh;
+    }
+
+    .home .home-right img {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home .home-left .home-content {
+        position: absolute;
+        top: 25em;
+    }
+
+    .home .home-left h2 {
+        margin-top: -1em;
+        padding-bottom: 10px;
+    }
+
+    .home .home-left .home-content .paragraph {
+        text-align: center;
+    }
+
+    .about .about-wave {
+        bottom: 39em;
+    }
+
+    .contact .contact-content .contact-form input, .contact textarea {
+        width: 60%;
+    }
+
+    .contact .contact-content .contact-image img {
+        display: none;
+    }
+
+    .contact .contact-content .contact-form .btn.read.send i {
+        margin-right: .14em;
+    }
+
+    footer {
+        font-size: 0.7em;
+    }
+
+    .column {
+        margin-top: 2em;
+    }
+
+    .column .card {
+        overflow: auto;
+    }
+
+    .back {
+        padding: 3em 90% 2em 2em;
+    }
+
+    .text-head {
+        font-size: 2em;
+    }
+
+    .login .btn-home.log {
+        width: max-content;
+    }
+    
+    .container-header .container-data .header-menu .fas {
+        position: absolute;
+        left: .5em;
+        top: -3px;
+    }
+    
+    .tb-data .list-data {
+        overflow: auto;
+    }
+
+    .container-header .container-data nav.show {
+        width: 50%;
+    }
+
+    .container .form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 1150px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .container .form .form-content {
+        margin-top: 2em;
+        margin-bottom: 5em;
+    }
+
+    .text-filter {
+        margin-top: 2em;
+    }
+
+}
+
+
+@media screen and (min-width:801px) {
+    .container-header .header-left nav ul li a {
+        font-size: 0.7em;
+    }
+
+    .heading {
+        margin-top: -120px;
+        margin-bottom: 50px;
+    }
+
+    .home {
+        height: 120vh;
+    }
+
+    .home .container {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1150px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .home .home-left {
+        margin-top: 8em;
+        padding: 0 40px;
+        text-align: left;
+    }
+
+    .home .home-left .home-content .paragraph {
+        margin-left: 5px;
+    }
+
+    .home .home-left .home-content .btn-home {
+        width: 40%;
+    }
+
+    .home .home-right {
+        margin-top: 100px;
+    }
+
+    .home .home-right img {
+        width: 350px;
+    }
+
+    .about {
+        height: 90vh;
+    }
+
+    .about .about-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about .about-content .about-image {
+        margin: 18px 0 0 0;
+        padding: 0;
+    }
+
+    .about .about-content .about-text {
+        text-indent: 3em;
+    }
+
+    .about .about-wave {
+        bottom: 35%;
+    }
+
+    .contact .contact-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact .contact-content .contact-form input,  textarea {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+
+    .column {
+        margin-top: 1.5em;
+    }
+
+    .text-head {
+        font-size: 2.2em;
+    }
+
+    .tb-data .list-data {
+        overflow: auto;
+    }
+
+    .container .form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 1150px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .container .form .form-content {
+        margin-top: 2em;
+        margin-bottom: 5em;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px) {
+    .heading {
+        margin-top: -1em;
+    }
+
+    .container-header .header-left nav ul li a {
+        font-size: 0.8em;
+    }
+
+    .home .home-wave {
+        bottom: -10%;
+    }
+
+    .home .home-left {
+        margin-top: 140px;
+    }
+
+    .home .home-left .home-content .btn-home.next {
+        width: 30%;
+    }
+
+    .home .home-left .home-content .paragraph {
+        margin-left: 0;
+    }
+
+    .home .home-right {
+        margin-top: 170px;
+    }
+
+    .home .home-right img {
+        width: 500px;
+    }
+
+    .about {
+        height: 110vh;
+        margin-top: 1px;
+    }
+
+    .about .about-content .about-image {
+        margin-top: -20px;
+    }
+
+    .about .about-content .about-image img {
+        width: 400px;
+    }
+
+    .about .about-content .about-text {
+        margin-left: 40px;
+    }
+
+    .about .about-wave {
+        bottom: 38em;
+    }
+
+    .contact .btn-home.send {
+        width: 40%;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+    .container .form {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -2em;
+        padding: 0 20px;
+    }
+
+    .container .form .form-content.edit {
+        margin-top: 5em;
+    }
+
+    .picture-filter img {
+        display: block;
+    }
+
+}
+
+
+@media screen and (min-width: 1360px) {
+    .contact .contact-content input, textarea {
+        width: 100%;
+    }
+    
+    .login .eye {
+        color: #0084ff;
+        display: block;
+        position: absolute;
+        top: 32.3vh;
+        right: 67vh;
+    }
+    
+    .login #show {
+        display: none;
+    }
+
+    .container-header .container-data .header-right img {
+        display: block;
+    }
+
+    .tb-data .list-data {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1367px) {
+    .login .eye {
+        display: none;
+    }
+}

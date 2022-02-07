@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABSEN MONITORING | Lebih Mudah & Cepat</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/general.css">
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Logo -->
+  <link rel="icon" href="img/download-removebg-preview (1).png">
+</head>
+<body>
+
+  <!-- ----- Pembuka Header ----- -->
+  <header>
+    <div class="container-header">
+      <div class="header-left">
+        <nav id="nav">
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-menu">
+        <i class="fas fa-bars" id="menu"></i>
+      </div>
+      <div class="header-right">
+        <input type="text" class="search" list="search" placeholder="Cari ..." autocomplete="off">
+        <label for="#"><i class="fas fa-search"></i></label>
+        <datalist id="search">
+          <option id="">Beranda</option>
+          <option id="">Tentang</option>
+          <option id="">Kontak</option>
+          <option id="">Profil</option>
+          <option id="">Login Guru</option>
+          <option id="">Login Siswa</option>
+        </datalist>
+      </div>
+    </div>
+  </header>
+  <!-- ----- Penutup Header ----- -->
+
+  <!-- ----- Pembuka Section Beranda ----- -->
+  <section class="home" id="beranda">
+    <div class="container">
+      <div class="home-left">
+        <h2>
+          <p style="font-size: 1.2em; margin-bottom: -1em;">ABSEN MONITORING</p>
+            <br>
+          <span>Lebih Mudah & Cepat</span>
+        </h2>
+        <div class="home-content">
+          <p class="paragraph">
+            adalah sebuah laman web untuk pengambilan data, guna mengetahui jumlah kehadiran pada suatu kelas. Setiap kegiatan yang membutuhkan informasi mengenai peserta didik tentu akan melakukan absensi.
+          </p>
+          <a href="html/status.html">
+            <button class="btn-home next"><i class="fas fa-sign-in-alt"></i>Masuk</button>
+          </a>
+        </div>
+      </div>
+      <div class="home-right">
+        <img src="img/undraw_design_notes_8dmv-removebg-preview (1).png" alt="picture-home">
+      </div>
+    </div>
+    <div class="home-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f3f4f5" fill-opacity="1" d="M0,160L40,170.7C80,181,160,203,240,186.7C320,171,400,117,480,128C560,139,640,213,720,218.7C800,224,880,160,960,160C1040,160,1120,224,1200,234.7C1280,245,1360,203,1400,181.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+      </svg>
+    </div>
+  </section>
+  <!-- ----- Penutup Section Beranda ----- -->
+
+  <!-- ----- Pembuka Section Tentang ----- -->
+  <section class="about" id="tentang">
+    <div class="container">
+      <div class="heading">
+        <h2>Tentang</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="img/undraw_All_the_data_re_hh4ww-removebg-preview.png" alt="picture-about">
+        </div>
+        <div class="about-text"> 
+          <p class="paragraph">
+            Sebuah situs absensi sederhana dan modern yang sangat membantu kehidupan orang banyak melalui teknologi di masa pandemi ini. Absensi monitoring terkoneksi dengan internet sehingga kemampuan memantau data dilakukan dengan realtime. Keunggulan ini memudahkan kinerja guru dalam memproses data kehadiran serta keterlambatan siswa. Selain itu, sinkronisasi jadi lebih mudah karena tersimpan otomatis dengan sistem cloud.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="about-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1" d="M0,160L40,170.7C80,181,160,203,240,186.7C320,171,400,117,480,128C560,139,640,213,720,218.7C800,224,880,160,960,160C1040,160,1120,224,1200,234.7C1280,245,1360,203,1400,181.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+      </svg>
+    </div>
+  </section>
+  <!-- ----- Penutup Section Tentang ----- -->
+
+  <!-- ----- Pembuka Section Kontak ----- -->
+  <section class="contact" id="kontak">
+    <div class="container">
+      <div class="heading">
+        <h2>Kontak</h2>
+      </div>
+      <div class="contact-content">
+        <div class="contact-form">
+          <form name="absen-monitoring-contact-form">
+            <table cellpadding="10">
+              <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td>
+                  <input type="text" name="nama" placeholder="Tulis Nama ..." required>
+                </td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>
+                  <input type="email" name="email" placeholder="Tulis Email ..." required>
+                </td>
+              </tr>
+              <tr>
+                <td>Pesan</td>
+                <td>:</td>
+                <td>
+                  <textarea name="pesan" cols="30" rows="10" placeholder="Tulis Pesan ..." required></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>
+                  <button type="submit" class="btn read send"><i class="far fa-paper-plane"></i>Kirim</button>
+                  <button type="submit" class="btn read loading none"><i class="fa fa-spinner fa-spin"></i>Loading</button>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div class="contact-image">
+          <img src="img/undraw_Envelope_re_f5j4-removebg-preview.png" alt="picture-contact">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ----- Penutup Section Kontak ----- -->
+  
+  <!-- ----- Pembuka Footer ----- -->
+  <footer>
+    Copyright &copy; 2021 Kelompok 10 BAP RPL X-1
+  </footer>
+  <!-- ----- Penutup Footer ----- -->
+
+  <!-- ----- Pembuka Kontak Profile ----- -->
+  <a href="html/profile.html">
+    <div class="contact-profile">
+      <i class="fas fa-users"></i>
+    </div>
+  </a>
+  <!-- ----- Penutup Kontak Profile ----- -->
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>

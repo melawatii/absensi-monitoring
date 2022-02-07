@@ -1,0 +1,357 @@
+body {
+    background-image: url(../img/white-stone-1280.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-content {
+    box-shadow: 0 0 10px 0.5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 15px;
+    width: max-content;
+}
+
+button {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.form-absen, .filter td {
+    font-weight: bold;
+}
+
+
+/* Pembuka CSS index.php */
+/* ----- Pembuka Header Data Siswa ----- */
+.container-header .container-data {
+    float: left;
+    position: absolute;
+    top: -14px;
+    left: -15px;
+}
+
+.container-header .container-data nav {
+    display: none;
+}
+
+.container-header .container-data .header-menu {
+    display: block;
+}
+
+.container-header .container-data .header-menu .fas {
+    font-size: 2em;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+
+.container-header .container-data ul {
+    list-style-type: none;
+    padding: 2em;
+    margin: 0;
+}
+
+.container-header .container-data ul li {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 0.6em;
+    position: relative;
+}
+
+.container-header .container-data ul li:hover {
+    transform: scale(1.09);
+}
+
+.container-header .container-data a {
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.container-header .container-data a::after {
+    background: #fff;
+    content: " ";
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.container-header .container-data a:hover::after {
+    bottom: 4px;
+}
+
+.container-header .container-data nav ul li a i {
+    margin-right: 1em;
+}
+
+.container-header .container-data nav.show {
+    background: #0084ffcd;
+    display: block;
+    position: fixed;
+    top: 76px;
+    left: -500px;
+    height: 100vh;
+    width: 40%;
+    animation: nav 1s ease forwards;
+}
+
+@keyframes nav {
+    to {
+        left: 0;
+    }
+}
+
+nav.show ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+nav.show li {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.container-header .container-data .header-right {
+    display: block;
+}
+
+.container-header .container-data .header-right img {
+    display: none;
+    position: absolute;
+    left: 1150px;
+    top: -5px;
+    width: 50px;
+}
+
+/* ----- Penutup Header Data Siswa ----- */
+
+/* ----- Pembuka Table Data Siswa ----- */
+
+.tb-data {
+    margin-bottom: 5em;
+}
+
+.tb-data .header {
+    padding: 7em 2.5em 2.5em 2.5em;
+}
+
+.tb-data .header .text-head.heading {
+    color: #000;
+    font-size: 1.5em;
+}
+
+.tb-data .list-data {
+    max-width: 90%;
+}
+
+.tb-data .list-data .bx-data {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tb-data .list-data .bx-data th {
+    background: linear-gradient(to bottom, rgba(0, 28, 105, 0.7), #0084ff);
+    color: white;
+    font-weight: 500;
+}
+
+.tb-data .list-data .bx-data tr th {
+    border: 1px solid #e6e6e6;
+    border-bottom: 1px solid #0084ff;
+    padding: 0.9em 2em;
+}
+
+.tb-data .list-data .bx-data td {
+    background-color: #e6e6e6;
+    font-weight: 500;
+}
+
+.tb-data .list-data .bx-data tr td {
+    border-bottom: 1px solid blue;
+}
+
+.tb-data .list-data .bx-data .btn-home {
+    padding: 10px;
+    width: max-content;
+}
+
+.tb-data .list-data .bx-data .btn-home.edit {
+    background-color: #f16d00;
+}
+
+.tb-data .list-data .bx-data .btn-home.edit:hover {
+    background-color: #f3f4f5;
+    box-shadow: 0 0 1px 1px #f16d00;
+    color: #f16d00;
+}
+
+.tb-data .list-data .bx-data .btn-home.hapus {
+    background-color: #f13800;
+}
+
+.tb-data .list-data .bx-data .btn-home.hapus:hover {
+    background-color: #f3f4f5;
+    box-shadow: 0 0 1.2px 1.2px #f13800;
+    color: #f13800;
+}
+
+.tb-data .export {
+    position: absolute;
+    font-size: smaller;
+    width: 27%;
+    top: 17vh;
+    left: 75%;
+}
+
+.tb-data .export .btn-home.excel {
+    background-color: #00c700;
+}
+
+.tb-data .export .btn-home.excel:hover {
+    background-color: #f3f4f5;
+    box-shadow: 0 0 1.2px 1.2px #00c700;
+    color: #00c700;
+}
+
+.tb-data .export .btn-home.pdf {
+    background-color: #d40000;
+}
+
+.tb-data .export .btn-home.pdf:hover {
+    background-color: #f3f4f5;
+    box-shadow: 0 0 1.2px 1.2px #d40000;
+    color: #d40000;
+}
+/* ----- Penutup Table Data Siswa ----- */
+/* Penutup CSS index.php */
+
+
+/* Pembuka CSS edit.php */
+/* ----- Pembuka Edit Data Siswa ----- */
+.btn-home.edit .far.fa-edit i {
+    margin-right: -1em;
+}
+/* ----- Penutup Edit Data Siswa ----- */
+/* Penutup CSS edit.php */
+
+
+/* Pembuka CSS absen.php */
+/* ----- Pembuka Form Absen Siswa ----- */
+.form .form-content .form-absen {
+    margin: -1.5em 0 0 0;
+}
+
+.form .form-content .form-absen td {
+    color: rgba(0, 28, 105, 0.836);
+}
+
+.form .form-content .form-absen input, select {
+    width: 100%;
+}
+
+.form .form-content .form-absen button {
+    width: 60%;
+}
+
+.form .form-content .form-absen .btn-home i {
+    margin-right: 1em;
+}
+/* ----- Penutup Form Absen Siswa ----- */
+/* Penutup CSS absen.php */
+
+
+/* Pembuka CSS tampilanabsen.php  */
+/* ----- Pembuka Button Logout ----- */
+.log-out {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+}
+
+.log-out button {
+    background: #ff0000;
+}
+
+.log-out button:hover {
+    background-color: #fff;
+    box-shadow: 0 0 2px 2px #ff0000;
+    color: #ff0000;
+}
+
+.view-absent .image-absent img {
+    width: 400px;
+}
+
+.view-absent .word-absent p {
+    color: rgba(0, 28, 105, 0.836);
+    font-weight: 700;
+}
+/* ----- Penutup Button Logout ----- */
+/* Pembuka CSS tampilanabsen.php  */
+
+
+/* Pembuka CSS filter.php */
+/* ----- Pembuka Filter Data Siswa ----- */
+.picture-filter img {
+    display: none;
+}
+
+.picture-filter .picture-right {
+    position: absolute;
+    bottom: -30vh;
+    right: 2vh;
+}
+
+.picture-filter .picture-right img {
+    width: 500px;
+}
+
+.picture-filter .picture-left {
+    position: absolute;
+    bottom: -30vh;
+    left: 1vh;
+}
+
+.picture-filter .picture-left img {
+    width: 400px;
+}
+
+.text-filter {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 2em;
+}
+
+.filter input {
+    width: 100%;
+}
+
+.filter .filter-rombel {
+    width: 130%;
+}
+
+.filter .btn-home.filter {
+    width: 50%;
+}
+/* ----- Penutup Tampilan Data Siswa ----- */
+/* Penutup CSS filter.php */

@@ -1,0 +1,380 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.heading {
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.heading h2::after {
+    background: linear-gradient(to right, rgba(0, 28, 105, 0.7), #0084ff);
+    border-radius: 10px;
+    content: " ";
+    display: block;
+    margin: 10px auto ;
+    height: 3px;
+    width: 100px;
+}
+
+span {
+    color: #0084ff;
+}
+
+
+/* Pembuka CSS index.html */
+/* ----- Pembuka CSS Header ----- */
+.container-header .header-left nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container-header .header-left nav ul li {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    overflow: hidden;
+    margin-right: 10px;
+    padding: 1em;
+    position: relative;
+}
+
+.container-header .header-left nav ul li:hover {
+    transform: scale(1.09);
+}
+
+.container-header .header-left nav ul li a {
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.container-header .header-left nav ul li a::after {
+    background: #fff;
+    content: " ";
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.container-header .header-left nav ul li a:hover::after {
+    bottom: 6px;
+}
+
+.container-header .header-left nav.show {
+    background: #0084ffcd;
+    display: block;
+    position: fixed;
+    top: 76px;
+    left: -500px;
+    height: 100vh;
+    width: 70%;
+    animation: nav 1s ease forwards;
+}
+
+@keyframes nav {
+    to {
+        left: 0;
+    }
+}
+
+.container-header .header-left nav.show ul {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.container-header .header-left nav.show ul li {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.container-header .header-menu {
+    display: none;
+}
+
+.container-header .header-menu .fas.fa-bars {
+    color: #fff;
+    cursor: pointer;
+    font-size: 2em;
+    position: absolute;
+    left: 0;
+    top: -1px;
+}
+
+.container-header .header-right {
+    position: relative;
+}
+
+.container-header .header-right input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: #666;
+    letter-spacing: 0.5px;
+    padding: 10px 40px 10px 20px;
+    position: relative;
+    width: 200px;
+    transition: all 0.2s;
+}
+
+.container-header .header-right input:hover {
+    box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+}
+
+.container-header .header-right .fas.fa-search {
+    color: #0084ff;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+/* ----- Penutup CSS Header ----- */
+
+/* ----- Pembuka CSS Beranda ----- */
+.home {
+    height: 105vh;
+    position: relative;
+}
+
+.home .home-left {
+    letter-spacing: 0.5px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.home .home-left h2 {
+    font-size: 1.7em;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.home .home-left .home-content .paragraph {
+    margin: -20px 25px 30px 25px;
+    text-align: justify;
+}
+
+.home .home-left .home-content .btn-home .fas.fa-sign-in-alt {
+    margin-right: 1em;
+}
+
+.home .home-right img {
+    width: 300px;
+}
+
+.home .home-wave {
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 100%;
+}
+
+.home .home-wave svg {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+/* ----- Penutup CSS Beranda ----- */
+
+/* ----- Pembuka CSS Tentang ----- */
+.about {
+    align-items: center;
+    background-color: #f3f4f5;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.about .container {
+    padding: 0 0 100px 0;
+}
+
+.about .about-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.about .about-content .about-image {
+    margin-bottom: 10px;
+}
+
+.about .about-content .about-image img {
+    width: 200px;
+}
+
+.about .about-content .about-text {
+    margin-top: -30px;
+    padding: 20px;
+}
+
+.about .about-wave {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.about .about-wave svg {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+/* ----- Penutup CSS Tentang ----- */
+
+/* ----- Pembuka CSS Kontak ----- */
+.contact {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .container {
+    padding: 20px;
+    text-align: left;
+    width: 80%;
+}
+
+.contact .heading {
+    margin-top: 80px;
+}
+
+.contact .contact-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.contact .contact-content .contact-form .btn.read.none {
+    display: none;
+}
+
+.contact .contact-content .contact-form .btn.read.send {
+    border-radius: 5px;
+    width: 45%;
+}
+
+.contact .contact-content .contact-form .btn.read.send:hover {
+    background-color: #0084ff;
+    box-shadow: none;
+    color: #fff;
+}
+
+.contact .contact-content .contact-form .btn.read.send i, .contact .contact-content .contact-form .btn.read.loading i {
+    margin-right: 1em;
+}
+
+.contact .contact-content .contact-form .btn.read.loading {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.contact .contact-content .contact-form .btn.read.loading:hover {
+    background-color: red;
+    box-shadow: none;
+    color: #fff;
+}
+
+.contact .contact-content .contact-form td {
+    font-weight: bold;
+}
+
+.contact .contact-content .contact-image img {
+    margin: 0 0 0 5em;
+    width: 500px;
+}
+/* ----- Penutup CSS Kontak ----- */
+
+/* ----- Pembuka CSS Footer ----- */
+footer {
+    background: linear-gradient(to right, rgba(0, 28, 105, 0.7), #0084ff);
+    box-shadow: 0 0 7px 0 #00000077;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+/* ----- Penutup CSS Footer ----- */
+
+/* ----- Pembuka CSS Profile ----- */
+.contact-profile {
+    background: linear-gradient(to right, rgba(0, 28, 105, 0.7), #0084ff);
+    box-shadow: 1px 7px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 15%;
+    right: 3%;
+    text-align: center;
+    animation: 2s updown infinite alternate;
+}
+
+@keyframes updown {
+    0% {
+        bottom: 5%;
+    }
+    100% {
+        bottom: 15%;
+    }
+}
+
+.contact-profile i {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 0.5em;
+}
+
+.contact-profile i:hover {
+    opacity: 1;  
+}
+/* ----- Penutup CSS Profile ----- */
+/* Penutup CSS index.html */
+
+
+/* Pembuka CSS profile.html */
+/* ----- Pembuka Halaman CSS Profile ----- */
+.column {
+    padding-bottom: 5em;
+}
+
+.column .card {
+    background-color: #f3f4f5;
+    border: 7px solid #0084ff;
+    border-radius: 15px;
+    margin-bottom: 3em;
+    padding: 25px;
+    width: 80%;
+}
+
+.column .card i {
+    color: rgba(0, 28, 105, 0.7);
+}
+
+.column .card th, .card a {
+    color: rgb(56, 55, 55);
+    text-align: left;
+}
+/* ----- Penutup Halaman CSS Profile ----- */
+/* Penutup CSS profile.html */

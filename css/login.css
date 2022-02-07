@@ -1,0 +1,70 @@
+body {
+    background-image: url(../img/bg-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/* login */
+/* ----- Pembuka Halaman User ----- */
+.login {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 60%;
+    text-align: center;
+}
+
+.login input {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+}
+
+.login .eye {
+    display: none;
+}
+
+.login .btn-home.log {
+    margin-top: 1em;
+    width: 20%;
+}
+
+.login .btn-home.log i {
+    margin-right: 1em;
+}
+/* ----- Penutup Halaman User ----- */
+/* login */
+
+
+/* status.html */
+/* ----- Pembuka Halaman Login Guru-Siswa ----- */
+.bx-user {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.bx-user .btn-home.user {
+    margin: 2.5em 5em;
+    width: 200px;
+}
+
+.bx-login .btn-home i {
+    margin-right: 1em;
+}
+
+.bx-user {
+    margin-top: 3em;
+}
+
+.btn-home.user i {
+    margin-right: 1em;
+}
+/* ----- Penutup Halaman Login Guru-Siswa ----- */
+/* status.html */
